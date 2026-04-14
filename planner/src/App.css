@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    background-color: var(--color-white);
+    @media (prefers-color-scheme: dark) {
+        color: var(--color-white);
+        background-color: var(--color-blue-950)
+    }
+}
+
+select > option {
+    @media (prefers-color-scheme: dark) {
+        background-color: var(--color-blue-950);
+        color: white;
+    }
+}
+
+.custom-scrollbar {
+    @media (prefers-color-scheme: dark) {
+        scrollbar-color: white #101828FF;
+    }
+}
