@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "skills": {
+    "source": "google-gemini/gemini-cli",
+    "sourceType": "github",
+    "computedHash": "e1a37374abbde535fcdb5f271f57ec204ffdef9b265b5382f3a2dd94517fe87d"
+  }
+}
