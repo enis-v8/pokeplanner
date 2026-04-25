@@ -42,8 +42,8 @@ jobs:
       - name: Check formatting
         run: npm run format:check
 
-      - name: Test
-        run: npm test
+      - name: Run tests
+        run: npx vitest run --reporter=verbose
 
       - name: Build
         run: npm run build
